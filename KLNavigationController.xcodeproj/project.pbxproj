@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7751B1A61740BD9200B00F92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7751B1A51740BD9200B00F92 /* Foundation.framework */; };
-		7751B1AB1740BD9200B00F92 /* KLNavigationController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7751B1AA1740BD9200B00F92 /* KLNavigationController.h */; };
-		7751B1AD1740BD9200B00F92 /* KLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7751B1AC1740BD9200B00F92 /* KLNavigationController.m */; };
 		7751B1B51740BD9200B00F92 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7751B1B41740BD9200B00F92 /* SenTestingKit.framework */; };
 		7751B1B71740BD9200B00F92 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7751B1B61740BD9200B00F92 /* UIKit.framework */; };
 		7751B1B81740BD9200B00F92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7751B1A51740BD9200B00F92 /* Foundation.framework */; };
 		7751B1BB1740BD9200B00F92 /* libKLNavigationController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7751B1A21740BD9200B00F92 /* libKLNavigationController.a */; };
 		7751B1C11740BD9200B00F92 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7751B1BF1740BD9200B00F92 /* InfoPlist.strings */; };
 		7751B1C41740BD9200B00F92 /* KLNavigationControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7751B1C31740BD9200B00F92 /* KLNavigationControllerTests.m */; };
+		7751B1D11740BDAA00B00F92 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7751B1D01740BDAA00B00F92 /* UIKit.framework */; };
+		77A1E9BB1740BE05000A8B99 /* KLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A1E9BA1740BE05000A8B99 /* KLNavigationController.m */; };
+		77A1E9BC1740BE29000A8B99 /* KLNavigationController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 77A1E9B91740BE05000A8B99 /* KLNavigationController.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +35,7 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
-				7751B1AB1740BD9200B00F92 /* KLNavigationController.h in CopyFiles */,
+				77A1E9BC1740BE29000A8B99 /* KLNavigationController.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,8 +45,6 @@
 		7751B1A21740BD9200B00F92 /* libKLNavigationController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKLNavigationController.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7751B1A51740BD9200B00F92 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7751B1A91740BD9200B00F92 /* KLNavigationController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KLNavigationController-Prefix.pch"; sourceTree = "<group>"; };
-		7751B1AA1740BD9200B00F92 /* KLNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLNavigationController.h; sourceTree = "<group>"; };
-		7751B1AC1740BD9200B00F92 /* KLNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLNavigationController.m; sourceTree = "<group>"; };
 		7751B1B31740BD9200B00F92 /* KLNavigationControllerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KLNavigationControllerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7751B1B41740BD9200B00F92 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		7751B1B61740BD9200B00F92 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -54,6 +52,9 @@
 		7751B1C01740BD9200B00F92 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7751B1C21740BD9200B00F92 /* KLNavigationControllerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLNavigationControllerTests.h; sourceTree = "<group>"; };
 		7751B1C31740BD9200B00F92 /* KLNavigationControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLNavigationControllerTests.m; sourceTree = "<group>"; };
+		7751B1D01740BDAA00B00F92 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		77A1E9B91740BE05000A8B99 /* KLNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLNavigationController.h; sourceTree = "<group>"; };
+		77A1E9BA1740BE05000A8B99 /* KLNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLNavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7751B1A61740BD9200B00F92 /* Foundation.framework in Frameworks */,
+				7751B1D11740BDAA00B00F92 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +102,7 @@
 		7751B1A41740BD9200B00F92 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7751B1D01740BDAA00B00F92 /* UIKit.framework */,
 				7751B1A51740BD9200B00F92 /* Foundation.framework */,
 				7751B1B41740BD9200B00F92 /* SenTestingKit.framework */,
 				7751B1B61740BD9200B00F92 /* UIKit.framework */,
@@ -111,8 +113,8 @@
 		7751B1A71740BD9200B00F92 /* KLNavigationController */ = {
 			isa = PBXGroup;
 			children = (
-				7751B1AA1740BD9200B00F92 /* KLNavigationController.h */,
-				7751B1AC1740BD9200B00F92 /* KLNavigationController.m */,
+				77A1E9B91740BE05000A8B99 /* KLNavigationController.h */,
+				77A1E9BA1740BE05000A8B99 /* KLNavigationController.m */,
 				7751B1A81740BD9200B00F92 /* Supporting Files */,
 			);
 			path = KLNavigationController;
@@ -243,7 +245,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7751B1AD1740BD9200B00F92 /* KLNavigationController.m in Sources */,
+				77A1E9BB1740BE05000A8B99 /* KLNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,6 +405,7 @@
 				7751B1C91740BD9200B00F92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7751B1CA1740BD9200B00F92 /* Build configuration list for PBXNativeTarget "KLNavigationControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -411,6 +414,7 @@
 				7751B1CC1740BD9200B00F92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
