@@ -18,7 +18,7 @@ Add the following line to your podfile
 	
 ## Usage ##
 
-KLNavigationController operates exactly as a UINavigationController (http://developer.apple.com/library/IOS/#documentation/UIKit/Reference/UINavigationController_Class/Reference/Reference.html) except that it adds a root view controller property to UINavigationController
+KLNavigationController operates exactly as a UINavigationController except that it adds a root view controller property to UINavigationController (http://developer.apple.com/library/IOS/#documentation/UIKit/Reference/UINavigationController_Class/Reference/Reference.html) 
 
 	//Note: setting root view controller will automatically pop to new root
 	-(void) setRootViewController: (UIViewController*) viewController;
